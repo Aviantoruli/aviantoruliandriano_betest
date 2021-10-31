@@ -1,0 +1,27 @@
+{
+  "name": "takehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aviantoruli/takeHome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aviantoruli/takeHome/issues"
+  },
+  "homepage": "https://github.com/Aviantoruli/takeHome#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.28.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.3"
+  }
+}
