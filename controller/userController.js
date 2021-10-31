@@ -1,7 +1,7 @@
 const { User } = require('../model/user')
 const { tokenGenerate } = require('../helper/jwt')
 const Redis = require('ioredis')
-const redis = new Redis()
+const redis = new Redis(process.env.REDIS)
 
 class UserController {
 
